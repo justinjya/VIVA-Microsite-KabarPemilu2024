@@ -1,0 +1,6 @@
+<?php
+  $random_title=array("Slicing Generator Socmed Baru untuk Quotes","Infografik Sayhrul Yasin Limpo, dari ‘Hilang’ kini Mundur jadi Menteri Pertanian","Banner Promo THE INTERVIEW with BoD - Edhie Sarwono","Materi Banner Programmatic Astra 2023 - Jakarta & Makassar","Mockup halaman login & registrasi via Social Media Account di SSO tvOne","Detail Photo Gallery tvOnenews","Infografik 10 PJ Gubernur Dilantik Kemendagri","Design Banner Kuis Dewa 19 Stadium Tour - Bandung","Infografik PEMBERONTAKAN SINGKAT TENTARA BAYARAN WAGNER KE PUTIN","Slicing update widget telegram penambahan google news subscribe");
+  $random_member=array("Aufar","Davro","Erick","Endri","Imam","Fhizyel","Dita");
+  $random_user=array("Rezky","Binteri","Kaisar","Putri","Siwa","Dini","Iqbal","Tasya");
+  $random_desc=array("Lorem ipsum dolor sit amet, consectetur adipiscing elit","Mauris semper condimentum nisl quis blandit. Curabitur tempus libero eu risus dapibus.","Pellentesque bibendum.","Aenean condimentum ex justo.","-");
+?>
