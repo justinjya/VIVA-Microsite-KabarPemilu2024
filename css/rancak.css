@@ -109,49 +109,6 @@ nav {display: flex; flex-direction: row; align-items: center; justify-content: s
 .candidate-card p {color: #191825BF; font-size: 18px; margin-top: 4px; margin-bottom: 4px;}
 .candidate-card h6 {color: #9A1E23; font-size: 23px; font-weight: bold; margin-top: 0px;}
 
-.netizen-container {display: flex; flex-direction: row; align-items: center;}
-.netizen-content {display: flex; flex-direction: column; align-items: center;}
-.netizen-card {width: 60vw; display: flex; flex-direction: column; align-items: center;}
-.netizen-card img {width: 128px; height: 128px; background-color: #e0e0e0; border-radius: 50%; margin-bottom: 34px;}
-.netizen-card h3 {color: #9a1e23; font-size: 28px; margin-top: 0px; margin-bottom: 34px;}
-.netizen-card p {width: 60%; color: #191825BF; font-size: 23px; text-align: center; margin-top: 0px; margin-bottom: 34px;}
-.pagination-circle {display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 32px;}
-.pagination-circle span {width: 24px; height: 24px; background-color: #1918250D; border-radius: 50%; margin: 24px;}
-.pagination-circle span.active {width: 24px; height: 24px; background-color: #e13148; border-radius: 50%; margin: 24px;}
-.input-container {display: flex; flex-direction: row; width: 640px; border: 1px rgba(1, 1, 1, 0.2) solid; border-radius: 10px; align-items: center; justify-content: center; margin-top: 32px; }
-input {height: 68px; width: 100%; font-size: 23px; border: none; padding-left: 22px; padding-right: 22px; border-radius: 10px;}
-.submit-icon {padding-left: 14px; padding-right: 14px; cursor: pointer;}
-.netizen-bg-img {width: 100vw; margin-top: 0px;}
-
-.article-container {display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; gap: 32px; justify-content: center; margin-bottom: 32px;}
-.article {width: 20%; position: relative; overflow: hidden; border-radius: 8px;}
-.article:hover {cursor: pointer; opacity: 0.8; transition: opacity 0.15s ease-in-out;}
-.article img {border-radius: 8px; width: 100%; height: 100%; display: block;}
-.article-overlay-content {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); border-radius: 8px; display: flex; flex-direction: column; justify-content: flex-end;}
-.article-overlay-content h3 {color: #f4f1f1; font-size: 13px; font-weight: bold; margin-bottom: 8px; padding-left: 8px; padding-right: 8px;}
-.article-overlay-content p {color: #e1314b; font-size: 11px; font-weight: bold; margin-top: 0px; margin-bottom: 12px; padding-left: 8px; padding-right: 8px;}
-
-.main-video-card {width: 52%; margin-bottom: 35px;}
-.main-video-card img {height: 100%; width: 100%; border-radius: 23px;}
-.main-video-card h3 {font-size: 32px; font-weight: bold; margin-top: 20px; margin-bottom: 0px;}
-.main-video-card p {font-size: 24px; font-weight: bold; color: #e1314b; margin-top: 21px;}
-.small-video-card-container {display: flex; flex-direction: row; flex-wrap: wrap; width: 90%; gap: 32px; margin-bottom: 32px; justify-content: center;}
-.small-video-card:hover {opacity: 0.8; transition: opacity 0.15s ease-in-out;}
-.small-video-card {width: 20%; background-color: #ffffff; border: 1px solid #e0e0e0; overflow: hidden; border-radius: 7px;}
-.small-video-card img {height: 100%; width: 100%; display: block;}
-.small-video-card h3 {font-size: 13px; font-weight: normal; padding-left: 8px; padding-right: 8px; margin-top: 12px; margin-bottom: 0px;}
-.small-video-card p {font-size: 9px; font-weight: bold; color: #e1314b; padding-left: 8px; padding-right: 8px; padding-bottom: 13px; margin-top: 6px;}
-.video-image-container { position: relative;}
-.duration-overlay {position: absolute; bottom: 0; right: 0; background-color: rgba(0, 0, 0, 0.75); height: 19px; padding-left: 6px; padding-right: 6px;padding-bottom: 4px; margin-bottom: 6px; margin-right: 11px; align-items: center; justify-content: center; border-radius: 7px;}
-.duration-overlay p {color: #ffffff; font-size: 10px;}
-
-.hint {display: flex; flex-direction: row; margin-bottom: 21px;}
-.hint p {font-size: 21px; color: #4f4f4f; margin-top: -6px;}
-.icon-search {fill: #E13148; margin-left: 13px; align-self: center; margin-left: 16px;}
-.infographics-container {width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; gap: 32px; margin-bottom: 58px; justify-content: center;}
-.infographics-container img {width: 25%; height: 25%; border-radius: 20px; object-fit: cover;}
-.infographics-container img:hover {opacity: 0.8; transition: opacity 0.15s ease-in-out;}
-
 
 
 @media screen and (min-width:0px) and (max-width:1439px){
@@ -163,16 +120,6 @@ input {height: 68px; width: 100%; font-size: 23px; border: none; padding-left: 2
 
   .candidate-card.selected{background-color: #FFB80029;}
   .input-container {width: 91%; margin-bottom: 0px;}
-
-  .h2-artikel-terpercaya {margin-top: 0px;}
-  .article {width: 90%;}
-
-  .main-video-card {width: 90%;}
-  .main-video-card h3 {font-size: 21px;}
-  .main-video-card p {font-size: 21px; margin-top: 10px;}
-  .small-video-card {width: 100%;}
-
-  .infographics-container img {width: 90%;}
 }
 
 

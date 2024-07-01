@@ -9,4 +9,3 @@
     <img src="img/sample/infografik-3.jpg" />
   </div>
 </section>
-<?php require "module/infoprahics_popup.php" ?>
